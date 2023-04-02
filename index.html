@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio HomePage</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="mobile" id="mobile">
+        <div class="bars"></div>
+        <div class="bars"></div>
+        <div class="bars"></div>
+      </nav>
+      <nav aria-label="desktop" id="desktop">
+        <div class="bars">Works</div>
+        <div class="bars">Blog</div>
+        <div class="bars">Content</div>
+      </nav>
+    </header>
+    <main>
+      <article class="intro-section">
+        <section class="profile-pic">
+          <img
+            src="images/profile-pic.png"
+            alt="my profile pic"
+            title="It's me!"
+            loading="eager"
+          />
+        </section>
+        <section class="intro-heading">
+          <h1>Hi, I am John, Creative Technologist</h1>
+        </section>
+        <section class="download-resume">
+          <a href="images/profile-pic.png" download="profile-pic"
+            >Download Resume</a
+          >
+        </section>
+      </article>
+      <p id="recent-post">Recent posts</p>
+      <!-- card1 -->
+      <article class="card1">
+        <section class="sub-heading">
+          <h2>Making a design system from scratch</h2>
+        </section>
+        <section class="date-category">
+          <time datetime="2020-02-12">12 Feb 2020</time>
+          <p>Design, Pattern</p>
+        </section>
+        <section class="description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            aliquid odio. Qui exercitationem quidem aliquam ab ducimus corporis
+            non quod numquam minima nesciunt eum,
+          </p>
+        </section>
+      </article>
+      <!-- card2 -->
+      <article class="card2">
+        <section class="sub-heading">
+          <h2>Making a design system from scratch</h2>
+        </section>
+        <section class="date-category">
+          <time datetime="2020-02-12">12 Feb 2020</time>
+          <p>Design, Pattern</p>
+        </section>
+        <section class="description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            aliquid odio. Qui exercitationem quidem aliquam ab ducimus corporis
+            non quod numquam minima nesciunt eum,
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p id="featured-work">Featured Work</p>
+      <article class="footer-image-section">
+        <div class="img-section">
+          <img
+            src="images/Rectangle 30.png"
+            alt="featured work"
+            title="My featured work"
+            loading="lazy"
+          />
+        </div>
+        <h2>Designing Dashboards</h2>
+        <section class="date-category">
+          <time id="date" datetime="2020">2020</time>
+          <p id="category">Dashboard</p>
+        </section>
+        <section class="description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            aliquid odio. Qui exercitationem quidem aliquam ab ducimus corporis
+            non quod numquam minima nesciunt eum,
+          </p>
+        </section>
+        <hr style="margin-top: 15px" />
+      </article>
+    </footer>
+  </body>
+</html>
