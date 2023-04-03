@@ -88,8 +88,11 @@ header #desktop {
 
 footer {
   background-color: white;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #featured-work {
@@ -138,10 +141,20 @@ footer .description {
   left: 25%;
 }
 
-.copyright {
+.icons-copyright {
   position: absolute;
   bottom: 5%;
   width: 50%;
   left: 26%;
   font-size: 12px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons .icon {
+  padding: 8px 22px;
 }
