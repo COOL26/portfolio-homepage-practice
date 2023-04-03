@@ -95,7 +95,6 @@ header #desktop {
 
 footer {
   background-color: white;
-  /* height: 100vh; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -139,7 +138,6 @@ footer .description {
 }
 
 .icons-copyright {
-  position: relative;
   width: 100%;
   margin: 150px 0 auto;
 }
