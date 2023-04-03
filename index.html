@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="media-queries.css" />
     <title>Portfolio HomePage</title>
   </head>
   <body>
@@ -21,13 +22,13 @@
         <div class="bars"></div>
       </nav>
       <nav aria-label="desktop" id="desktop">
-        <div class="bars">Works</div>
-        <div class="bars">Blog</div>
-        <div class="bars">Content</div>
+        <div>Works</div>
+        <div>Blog</div>
+        <div>Content</div>
       </nav>
     </header>
     <main>
-      <article class="intro-section">
+      <article class="intro-section flexBox">
         <section class="profile-pic">
           <img
             src="images/profile-pic.png"
@@ -36,49 +37,53 @@
             loading="eager"
           />
         </section>
-        <section class="intro-heading">
-          <h1>Hi, I am John, Creative Technologist</h1>
-        </section>
-        <section class="download-resume">
-          <a href="images/profile-pic.png" download="profile-pic"
-            >Download Resume</a
-          >
+        <section class="container">
+          <section class="intro-heading">
+            <h1>Hi, I am John, Creative Technologist</h1>
+          </section>
+          <section class="download-resume">
+            <a href="images/profile-pic.png" download="profile-pic"
+              >Download Resume</a
+            >
+          </section>
         </section>
       </article>
       <p id="recent-post">Recent posts</p>
       <!-- card1 -->
-      <article class="card1">
-        <section class="sub-heading">
-          <h2>Making a design system from scratch</h2>
-        </section>
-        <section class="date-category">
-          <time datetime="2020-02-12">12 Feb 2020</time>
-          <p>Design, Pattern</p>
-        </section>
-        <section class="description">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-            aliquid odio. Qui exercitationem quidem aliquam ab ducimus corporis
-            non quod numquam minima nesciunt eum,
-          </p>
-        </section>
-      </article>
-      <!-- card2 -->
-      <article class="card2">
-        <section class="sub-heading">
-          <h2>Making a design system from scratch</h2>
-        </section>
-        <section class="date-category">
-          <time datetime="2020-02-12">12 Feb 2020</time>
-          <p>Design, Pattern</p>
-        </section>
-        <section class="description">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-            aliquid odio. Qui exercitationem quidem aliquam ab ducimus corporis
-            non quod numquam minima nesciunt eum,
-          </p>
-        </section>
+      <article class="flexBox">
+        <article class="card1">
+          <section class="sub-heading">
+            <h2>Making a design system from scratch</h2>
+          </section>
+          <section class="date-category">
+            <time datetime="2020-02-12">12 Feb 2020</time>
+            <p>Design, Pattern</p>
+          </section>
+          <section class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              aliquid odio. Qui exercitationem quidem aliquam ab ducimus
+              corporis non quod numquam minima nesciunt eum,
+            </p>
+          </section>
+        </article>
+        <!-- card2 -->
+        <article class="card2">
+          <section class="sub-heading">
+            <h2>Making a design system from scratch</h2>
+          </section>
+          <section class="date-category">
+            <time datetime="2020-02-12">12 Feb 2020</time>
+            <p>Design, Pattern</p>
+          </section>
+          <section class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              aliquid odio. Qui exercitationem quidem aliquam ab ducimus
+              corporis non quod numquam minima nesciunt eum,
+            </p>
+          </section>
+        </article>
       </article>
     </main>
     <footer>
@@ -92,19 +97,70 @@
             loading="lazy"
           />
         </div>
-        <h2>Designing Dashboards</h2>
-        <section class="date-category">
-          <time id="date" datetime="2020">2020</time>
-          <p id="category">Dashboard</p>
-        </section>
-        <section class="description">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-            aliquid odio. Qui exercitationem quidem aliquam ab ducimus corporis
-            non quod numquam minima nesciunt eum,
-          </p>
-        </section>
+        <div class="others">
+          <h2>Designing Dashboards</h2>
+          <section class="date-category">
+            <time id="date" datetime="2020">2020</time>
+            <p id="category">Dashboard</p>
+          </section>
+          <section class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              aliquid odio. Qui exercitationem quidem aliquam ab ducimus
+              corporis non quod numquam minima nesciunt eum,
+            </p>
+          </section>
+        </div>
         <hr style="margin-top: 15px" />
+      </article>
+      <article class="footer-image-section">
+        <div class="img-section">
+          <img
+            src="images/Rectangle 30.png"
+            alt="featured work"
+            title="My featured work"
+            loading="lazy"
+          />
+        </div>
+        <div class="others">
+          <h2>Designing Dashboards</h2>
+          <section class="date-category">
+            <time id="date" datetime="2020">2020</time>
+            <p id="category">Dashboard</p>
+          </section>
+          <section class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              aliquid odio. Qui exercitationem quidem aliquam ab ducimus
+              corporis non quod numquam minima nesciunt eum,
+            </p>
+          </section>
+        </div>
+        <hr style="margin-top: 15px" />
+      </article>
+      <article class="footer-image-section">
+        <div class="img-section">
+          <img
+            src="images/Rectangle 30.png"
+            alt="featured work"
+            title="My featured work"
+            loading="lazy"
+          />
+        </div>
+        <div class="others">
+          <h2>Designing Dashboards</h2>
+          <section class="date-category">
+            <time id="date" datetime="2020">2020</time>
+            <p id="category">Dashboard</p>
+          </section>
+          <section class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              aliquid odio. Qui exercitationem quidem aliquam ab ducimus
+              corporis non quod numquam minima nesciunt eum,
+            </p>
+          </section>
+        </div>
       </article>
       <section class="icons-copyright">
         <div class="icons">
