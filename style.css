@@ -217,6 +217,9 @@ footer .description {
   .flexBox .container .download-resume {
     text-align: left;
   }
+  footer {
+    min-height: 100vh;
+  }
   footer .footer-image-section {
     display: flex;
     justify-content: space-between;
