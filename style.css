@@ -99,10 +99,8 @@ header #desktop {
 
 footer {
   background-color: white;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin-top: auto;
 }
 
 #featured-work {
